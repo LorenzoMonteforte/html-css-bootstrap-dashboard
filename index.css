@@ -24,13 +24,13 @@ a.navbar-brand{
 /* Contenuto */
 #contenuto{
     height: calc(100vh - 100px);
-    background-color: blue
 }
 /* Sidebar */
 #sidebar{
     height: 100%;
     width: 15%;
-    background-color: green;
+    background-image: url("img/img/sidebar-bg.png");
+    background-color: rgba(5,30,52,255);
 }
 /* Main */
 main{
