@@ -1,0 +1,28 @@
+/* Generals */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header{
+    height: 100px;
+    background-color: red;
+}
+/* Contenuto */
+#contenuto{
+    height: calc(100vh - 100px);
+    background-color: blue
+}
+/* Sidebar */
+#sidebar{
+    height: 100%;
+    width: 15%;
+    background-color: green;
+}
+/* Main */
+main{
+    height: 100%;
+    width: 85%;
+    background-color: yellow;
+}
