@@ -6,6 +6,14 @@
     main{
         width: 90%;
     }
+
+    .wid-md-40{
+        width: 40%;
+    }
+
+    .wid-md-15{
+        width: 15%;
+    }
 }
 
 @media only screen and (min-width: 992px){
