@@ -9,6 +9,18 @@ header{
     height: 100px;
     background-color: red;
 }
+
+a.navbar-brand{
+    width: 10%;
+}
+
+#searchElementContainer{
+    width: 90%;
+}
+
+.bacColGre{
+    background-color: rgba(230,230,230,255);
+}
 /* Contenuto */
 #contenuto{
     height: calc(100vh - 100px);
