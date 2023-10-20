@@ -7,7 +7,6 @@
 /* Header */
 header{
     height: 100px;
-    background-color: red;
 }
 
 a.navbar-brand{
@@ -36,5 +35,14 @@ a.navbar-brand{
 main{
     height: 100%;
     width: 85%;
-    background-color: yellow;
+    background-color: lightgray;
+}
+/* Boolean */
+.plusContainer{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.bacColBla{
+    background-color: rgb(0, 0, 0, 0.3);
 }
