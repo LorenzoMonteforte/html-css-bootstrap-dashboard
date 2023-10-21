@@ -45,6 +45,10 @@ main{
 .bacColBla{
     background-color: rgb(0, 0, 0, 0.3);
 }
+
+div.offcanvas.offcanvas-end{
+    width: 100%;
+}
 /* Prossime classi */
 .wid50{
     width: 50%;

@@ -24,4 +24,8 @@
     #searchElementContainer{
         width: 85%;
     }
+
+    div.offcanvas.offcanvas-end{
+        width: 55%;
+    }
 }
