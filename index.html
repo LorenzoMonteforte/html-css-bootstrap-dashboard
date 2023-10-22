@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="hover.css">
 </head>
 
 <body>
@@ -23,12 +24,13 @@
                 </a>
                 <div id="searchElementContainer" class="ps-3 d-flex align-items-center">
                     <form class="d-flex w-100" role="search">
-                        <button class="btn btn-outline-success bacColGre border-0 rounded-0 rounded-start"
+                        <button
+                            class="btn btn-outline-success bacColGre border-0 rounded-0 rounded-start tra0_2 navSeaHov"
                             type="submit">
                             <i class="fa-solid fa-magnifying-glass text-dark"></i>
                         </button>
-                        <input class="form-control bacColGre border-0 rounded-0 rounded-end" type="search"
-                            placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                        <input class="form-control bacColGre border-0 rounded-0 rounded-end tra0_2 navSeaHov"
+                            type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                     </form>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -55,13 +57,13 @@
                         </button>
                         <ul class="dropdown-menu position-absolute top-100 p-3">
                             <a class="text-dark" href="">
-                                <li>Profilo</li>
+                                <li class="tra0_2 ligGreHov">Profilo</li>
                             </a>
                             <a class="mt-1 text-dark" href="">
-                                <li>Fatturazione</li>
+                                <li class="tra0_2 ligGreHov">Fatturazione</li>
                             </a>
                             <a class="mt-1 text-dark" href="">
-                                <li>Logout</li>
+                                <li class="tra0_2 ligGreHov">Logout</li>
                             </a>
                         </ul>
                     </div>
@@ -72,21 +74,21 @@
     <!-- Contenuto -->
     <div id="contenuto" class="d-flex">
         <!-- Sidebar -->
-        <div id="sidebar" class="d-flex flex-column justify-content-between align-items-center py-3 text-white">
+        <div id="sidebar" class="d-flex flex-column justify-content-between align-items-center p-3 text-white">
             <div class="d-flex flex-column justify-content-between w-100">
-                <div>
+                <div class="py-2 tra0_2 sidBtnHov">
                     <a class="text-white d-flex w-100 align-items-center justify-content-center" href="">
                         <i class="fa-solid fa-house w-50 text-center"></i>
                         <span class="w-50 d-none d-lg-block">Home</span>
                     </a>
                 </div>
-                <div class="mt-3">
+                <div class="py-2 tra0_2 sidBtnHov">
                     <a class="text-white d-flex align-items-center justify-content-center" href="">
                         <i class="fa-solid fa-chart-simple w-50 text-center"></i>
                         <span class="w-50 d-none d-lg-block">Stats</span>
                     </a>
                 </div>
-                <div class="mt-3">
+                <div class="py-2 tra0_2 sidBtnHov">
                     <a class="text-white d-flex align-items-center justify-content-center" href="">
                         <i class="fa-solid fa-signal w-50 text-center"></i>
                         <span class="w-50 d-none d-lg-block">Signals</span>
@@ -94,7 +96,7 @@
                 </div>
             </div>
             <div class="d-flex flex-column justify-content-between w-100">
-                <div>
+                <div class="py-2 tra0_2 sidBtnHov">
                     <a class="text-white d-flex align-items-center justify-content-center" href="">
                         <i class="fa-solid fa-gear w-50 text-center"></i>
                         <span class="w-50 d-none d-lg-block">Admin</span>
@@ -114,8 +116,8 @@
                             <button class="btn ms-3 p-0" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                                 <div
-                                    class="plusContainer border border-white rounded d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-plus text-white"></i>
+                                    class="plusContainer border border-white rounded d-flex justify-content-center align-items-center tra0_2 nuoStuBtnHov">
+                                    <i class="fa-solid fa-plus colWhi tra0_2"></i>
                                 </div>
                             </button>
                             <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight"
@@ -207,16 +209,16 @@
                             <div>
                                 <h1 class="d-inline">Boolean</h1>
                                 <a class="ms-3 text-white" href="">
-                                    <span class="bacColBla rounded-pill px-2">Piano blaze</span>
+                                    <span class="bacColBla rounded-pill px-2 tra0_2 boolBtnHov">Piano blaze</span>
                                 </a>
                             </div>
                             <div class="mt-1">
                                 <a class="text-white" href="">
-                                    <span class="bacColBla rounded-pill px-2">3 app</span>
+                                    <span class="bacColBla rounded-pill px-2 tra0_2 boolBtnHov">3 app</span>
                                 </a>
                                 <i class="fa-solid fa-angles-right"></i>
                                 <a class="text-white" href="">
-                                    <span class="bacColBla rounded-pill px-1">
+                                    <span class="bacColBla rounded-pill px-1 tra0_2 boolBtnHov">
                                         <i class="fa-solid fa-plus"></i>
                                     </span>
                                 </a>
@@ -261,7 +263,7 @@
                                                             </tr>
                                                         </thead>
                                                         <tbody>
-                                                            <tr class="align-middle">
+                                                            <tr class="align-middle tra0_2 ligGreHov">
                                                                 <td class="wid50 wid-md-40">
                                                                     <a class="text-dark" href="">
                                                                         <img class="wid15 align-middle"
@@ -295,7 +297,7 @@
                                                                     </div>
                                                                 </td>
                                                             </tr>
-                                                            <tr class="align-middle">
+                                                            <tr class="align-middle tra0_2 ligGreHov">
                                                                 <td class="wid50 wid-md-40">
                                                                     <a class="text-dark" href="">
                                                                         <img class="wid15 align-middle"
@@ -329,7 +331,7 @@
                                                                     </div>
                                                                 </td>
                                                             </tr>
-                                                            <tr class="align-middle">
+                                                            <tr class="align-middle tra0_2 ligGreHov">
                                                                 <td class="wid50 wid-md-40">
                                                                     <a class="text-dark" href="">
                                                                         <img class="wid15 align-middle"
@@ -363,7 +365,7 @@
                                                                     </div>
                                                                 </td>
                                                             </tr>
-                                                            <tr class="align-middle">
+                                                            <tr class="align-middle tra0_2 ligGreHov">
                                                                 <td class="wid50 wid-md-40">
                                                                     <a class="text-dark" href="">
                                                                         <img class="wid15 align-middle"
@@ -397,7 +399,7 @@
                                                                     </div>
                                                                 </td>
                                                             </tr>
-                                                            <tr class="align-middle">
+                                                            <tr class="align-middle tra0_2 ligGreHov">
                                                                 <td class="wid50 wid-md-40">
                                                                     <a class="text-dark" href="">
                                                                         <img class="wid15 align-middle"
@@ -431,7 +433,7 @@
                                                                     </div>
                                                                 </td>
                                                             </tr>
-                                                            <tr class="align-middle">
+                                                            <tr class="align-middle tra0_2 ligGreHov">
                                                                 <td class="wid50 wid-md-40">
                                                                     <a class="text-dark" href="">
                                                                         <img class="wid15 align-middle"
@@ -465,7 +467,7 @@
                                                                     </div>
                                                                 </td>
                                                             </tr>
-                                                            <tr class="align-middle">
+                                                            <tr class="align-middle tra0_2 ligGreHov">
                                                                 <td class="wid50 wid-md-40">
                                                                     <a class="text-dark" href="">
                                                                         <img class="wid15 align-middle"
@@ -499,7 +501,7 @@
                                                                     </div>
                                                                 </td>
                                                             </tr>
-                                                            <tr class="align-middle">
+                                                            <tr class="align-middle tra0_2 ligGreHov">
                                                                 <td class="wid50 wid-md-40">
                                                                     <a class="text-dark" href="">
                                                                         <img class="wid15 align-middle"
@@ -634,21 +636,21 @@
                                                 </li>
                                                 <li class="list-group-item py-3">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item curPoi">
+                                                        <li class="list-group-item curPoi tra0_2 ligGreHov">
                                                             <input class="form-check-input me-1 curInh" type="checkbox"
                                                                 value="" id="firstCheckbox">
                                                             <label class="form-check-label curInh"
                                                                 for="firstCheckbox">Kickoff
                                                                 nuove classi</label>
                                                         </li>
-                                                        <li class="list-group-item curPoi">
+                                                        <li class="list-group-item curPoi tra0_2 ligGreHov">
                                                             <input class="form-check-input me-1 curInh" type="checkbox"
                                                                 value="" id="secondCheckbox">
                                                             <label class="form-check-label curInh"
                                                                 for="secondCheckbox">Lezione
                                                                 su Bootstrap 5 in classe #75</label>
                                                         </li>
-                                                        <li class="list-group-item curPoi">
+                                                        <li class="list-group-item curPoi tra0_2 ligGreHov">
                                                             <input class="form-check-input me-1 curInh" type="checkbox"
                                                                 value="" id="thirdCheckbox">
                                                             <label class="form-check-label curInh"

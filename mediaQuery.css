@@ -28,4 +28,8 @@
     div.offcanvas.offcanvas-end{
         width: 55%;
     }
+
+    #sidebar{
+        min-width: 136.59px;
+    }
 }

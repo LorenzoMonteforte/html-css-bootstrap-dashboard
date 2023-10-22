@@ -24,6 +24,10 @@ a.navbar-brand{
 .bacColGre{
     background-color: rgba(230,230,230,255);
 }
+
+.tra0_2{
+    transition: background-color 0.25s, color 0.25s;
+}
 /* Contenuto */
 #contenuto{
     height: calc(100vh - 100px);
@@ -60,6 +64,10 @@ div.offcanvas.offcanvas-end{
 
 .curInh{
     cursor: inherit;
+}
+
+.colWhi{
+    color: white;
 }
 /* Prossime classi */
 .wid50{

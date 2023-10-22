@@ -1,0 +1,23 @@
+.navSeaHov:hover{
+    background-color: rgba(200,200,200,255);
+}
+
+.ligGreHov:hover{
+    background-color: rgba(230,230,230,255);
+}
+
+.sidBtnHov:hover{
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.boolBtnHov:hover{
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.nuoStuBtnHov:hover{
+    background-color: white;
+}
+
+.nuoStuBtnHov:hover i{
+    color: black;
+}
